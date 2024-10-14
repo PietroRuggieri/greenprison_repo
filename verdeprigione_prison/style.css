@@ -1,0 +1,85 @@
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+    list-style-type:georgian;
+
+}
+
+.title{
+
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkgreen;
+    font-size: xx-large;
+    
+}
+
+.old_note{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    color: rgb(108, 53, 14);
+    background-clip:border-box ;
+}
+
+.centro{
+
+    display:block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button{
+    position: absolute; right: 5%; bottom:5%; 
+    color: darkgreen;
+    background-color: rgb(46, 170, 46);
+    background-clip: content-box;
+}
+
+.smllogo{
+    
+    height: 15px; width: 30px;
+}
+
+html {
+
+    background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+    display:block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(104, 187, 104);
+
+
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid green;
+    width: 20px;
+    height: 10px;
+    
+}
+
+.leaf{
+
+    height: 22px;
+    width: 22;
+
+}
+
+.weirdchar{
+
+        color: rgb(2, 80, 2);
+
+
+}
