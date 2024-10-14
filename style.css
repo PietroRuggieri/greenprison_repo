@@ -18,7 +18,8 @@ ul {
 }
 
 .old_note{
-    max-width: fit-content;
+    max-width: 45%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: burlywood;
@@ -27,38 +28,23 @@ ul {
     font-family:'Courier New', Courier, monospace;
 }
 
-.centro{
+.text{
 
+    text-align: left;
+}
+
+.button{
     display:block;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-
-}
-
-.button{
-    position: absolute; right: 5%; bottom: 5%; 
     color: darkgreen;
     background-color: rgb(46, 170, 46);
     background-clip: content-box;
-    border: 3px;
+    border: 2px solid;
     border-color: darkgreen;
 }
 
-.button:hover{
-
-    color: green;
-    background-color: darkgreen;
-    border-color: green;
-}
-
-.button-up{
-    position: absolute; right: 5%; top: 5%; 
-    color: darkgreen;
-    background-color: rgb(46, 170, 46);
-    background-clip: content-box;
-    
-}
 
 
 .smllogo{
@@ -69,6 +55,34 @@ ul {
 html {
 
     background-color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+    display:block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(104, 187, 104);
+
+
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid green;
+    width: 20px;
+    height: 10px;
+    
+}
+
+
+
+
+.button:hover{
+
+    color: green;
+    background-color: darkgreen;
+    border-color: green;
 }
 
 .old_note:hover{

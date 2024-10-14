@@ -24,8 +24,21 @@ ul {
     background-color: burlywood;
     color: rgb(108, 53, 14);
     background-clip:border-box ;
+    font-family:'Courier New', Courier, monospace;
+    max-width: 45%;
 }
 
+.old_note2{
+    max-width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    color: rgb(108, 53, 14);
+    background-clip:border-box ;
+    font-family:'Courier New', Courier, monospace;
+    max-width: 45%;
+}
 .centro{
 
     display:block;
@@ -40,6 +53,15 @@ ul {
     color: darkgreen;
     background-color: rgb(46, 170, 46);
     background-clip: content-box;
+    border: 3px;
+    border-color: darkgreen;
+}
+
+.button:hover{
+
+    color: green;
+    background-color: darkgreen;
+    border-color: green;
 }
 
 .smllogo{
@@ -65,7 +87,7 @@ td{
     text-align: center;
     vertical-align: middle;
     border: 2px solid green;
-    width: 20px;
+    width: 28px;
     height: 10px;
     
 }
@@ -82,4 +104,19 @@ td{
         color: rgb(2, 80, 2);
 
 
+}
+
+.old_note2:hover{
+
+    max-width: 47%;
+}
+
+.mino{
+    color: brown;
+    text-decoration-line: none;
+}
+
+
+.mino:hover{
+    text-decoration-line:line-through;
 }
