@@ -40,7 +40,7 @@ ul {
     max-width: 45%;
 }
 .centro{
-
+    
     display:block;
     max-width: fit-content;
     margin-left: auto;
@@ -119,4 +119,30 @@ td{
 
 .mino:hover{
     text-decoration-line:line-through;
+}
+
+.phantom{
+
+    color: antiquewhite;
+}
+
+.phantom:hover{
+
+    color: rgb(108, 53, 14);
+}
+
+.phantom2{
+
+    color: antiquewhite;
+    display:block;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.phantom2:hover{
+
+    color: rgb(108, 53, 14);
 }
