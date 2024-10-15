@@ -25,14 +25,14 @@ ul {
     color: rgb(108, 53, 14);
     background-clip:border-box ;
     font-family:'Courier New', Courier, monospace;
+    
 }
 
 .centro{
 
-    display:block;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -41,9 +41,10 @@ ul {
     color: darkgreen;
     background-color: rgb(46, 170, 46);
     background-clip: content-box;
-    border: 3px;
+    border: 2px solid;
     border-color: darkgreen;
 }
+
 
 .button:hover{
 
@@ -57,8 +58,18 @@ ul {
     color: darkgreen;
     background-color: rgb(46, 170, 46);
     background-clip: content-box;
+    border: 2px solid;
+    border-color: darkgreen;
     
 }
+
+.button-up:hover{
+
+    color: green;
+    background-color: darkgreen;
+    border-color: green;
+}
+
 
 
 .smllogo{
@@ -74,6 +85,8 @@ html {
 .old_note:hover{
 
     max-width: 47%;
+    
+    
 }
 
 .mino{
